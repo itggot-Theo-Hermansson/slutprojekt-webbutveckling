@@ -40,9 +40,59 @@ body {
 
 .informationish {
   grid-row: span 1;
-  grid-column: 2 / 4;
-  border-radius: 20px; }
+  grid-column: 2 / 4; }
 
 .forms {
   grid-row: 1 / 3;
   grid-column: 2 / 4; }
+
+.bestall {
+  grid-row: 1 / 5;
+  grid-column: 2 / 4; }
+
+.input-field label {
+  color: #000000; }
+
+h4 {
+  color: black; }
+
+.startcard {
+  grid-row: 2 / 4;
+  grid-column: 2 / 5; }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 100%;
+    height: 100%; }
+
+  .card1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    margin: 0 auto;
+    margin-left: 2px;
+    margin-right: 2px; }
+
+  .card2 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    margin: 0 auto;
+    margin-left: 2px;
+    margin-right: 2px; }
+
+  p {
+    size: 6px; }
+
+  .startcard {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2; }
+
+  .informationish {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2; }
+
+  a {
+    margin: 5px; } }
